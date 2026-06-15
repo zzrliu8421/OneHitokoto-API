@@ -7212,7 +7212,7 @@
   {
     "id": 7991,
     "uuid": "9c810120-be7c-4a48-8a96-0742c9d00f1b",
-    "hitokoto": "有些关心是见不得光的，它们必须要隐藏在角落。哪怕是双向的暗自关怀也不能拿上台面，默契的确有，但感情到头也只剩下这点默契了。",
+    "hitokoto": "有些关心是见不得光的，它们必须要隐藏在角落。哪怕是双向的暗自关怀也不能拿上���面，默契的确有，但感情到头也只剩下这点默契了。",
     "type": "f",
     "from": "互联网",
     "from_who": "jiaohaosheng",
@@ -8990,7 +8990,7 @@
   {
     "id": 8866,
     "uuid": "582423a6-0429-4d5a-b234-60a2fc87c340",
-    "hitokoto": "眼睛可以近视，目光不能短浅。",
+    "hitokoto": "眼睛��以近视，目光不能短浅。",
     "type": "f",
     "from": "互联网",
     "from_who": "佚名",
@@ -10124,7 +10124,7 @@
   {
     "id": 9461,
     "uuid": "887b3751-aa36-4107-a5df-986c405c28a7",
-    "hitokoto": "我们生活在大地上，但我��的梦想超越天空。",
+    "hitokoto": "我们生活在大地上，但我们的梦想超越天空。",
     "type": "f",
     "from": "BV1Ci4y1u7LW",
     "from_who": "谷歌翻译",
@@ -11302,7 +11302,7 @@
     "uuid": "bc2784d8-03a5-439c-aeb0-c31abeb55855",
     "hitokoto": "好想把你揉进我的身体里，但又不敢用力拥抱你，怕你在我怀里碎掉。",
     "type": "f",
-    "from": "���络",
+    "from": "网络",
     "from_who": null,
     "creator": "Furry",
     "creator_uid": 17664,
@@ -11944,7 +11944,7 @@
   {
     "id": 10725,
     "uuid": "f4b1676f-5e2f-439f-9585-017898b8fe1f",
-    "hitokoto": "我还想和你谈论宇宙和天空，或是沙滩里的碎石和人生，你会不会还是坦率地笑着我的荒唐。",
+    "hitokoto": "我还想���你谈论宇宙和天空，或是沙滩里的碎石和人生，你会不会还是坦率地笑着我的荒唐。",
     "type": "f",
     "from": "还愿",
     "from_who": "草东没有派对",
@@ -13480,5 +13480,61 @@
     "commit_from": "web",
     "created_at": "1780288232",
     "length": 28
+  },
+  {
+    "id": 11397,
+    "uuid": "d0c6aaa8-529b-4688-8b41-b5d5a227d8b0",
+    "hitokoto": "都是同龄人，我本来没想降维打击!",
+    "type": "f",
+    "from": "无畏契约",
+    "from_who": "zmjjkk",
+    "creator": "THY",
+    "creator_uid": 20787,
+    "reviewer": 20537,
+    "commit_from": "web",
+    "created_at": "1781435938",
+    "length": 16
+  },
+  {
+    "id": 11398,
+    "uuid": "f20c17b5-10e9-4b08-b1e8-2f7210f93c53",
+    "hitokoto": "华风夏韵，洛水天依！",
+    "type": "f",
+    "from": "网络",
+    "from_who": null,
+    "creator": "THY",
+    "creator_uid": 20787,
+    "reviewer": 20537,
+    "commit_from": "web",
+    "created_at": "1781436184",
+    "length": 10
+  },
+  {
+    "id": 11402,
+    "uuid": "679aef53-6afb-42f4-94e8-d3293719db5c",
+    "hitokoto": "因为懒惰所以写程序代替自己上班，因为急躁所以能彻夜改bug，因为傲慢所以不会因为环境不同跑不起来质疑自己代码。",
+    "type": "f",
+    "from": "bilibili",
+    "from_who": null,
+    "creator": "小孟科技",
+    "creator_uid": 20798,
+    "reviewer": 20537,
+    "commit_from": "web",
+    "created_at": "1781442229",
+    "length": 55
+  },
+  {
+    "id": 11404,
+    "uuid": "d187fe6f-8823-4129-92f4-12501302327d",
+    "hitokoto": "人为什么会在极端的天气下感到兴奋。",
+    "type": "f",
+    "from": "网络",
+    "from_who": null,
+    "creator": "小孟科技",
+    "creator_uid": 20798,
+    "reviewer": 20537,
+    "commit_from": "web",
+    "created_at": "1781444260",
+    "length": 17
   }
 ]
