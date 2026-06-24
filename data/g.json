@@ -646,7 +646,7 @@
   {
     "id": 672,
     "uuid": "6d85ce43-0869-487f-b174-bfcee556b38d",
-    "hitokoto": "使会场合而为一的歌曲。大家一起飞起来吧!",
+    "hitokoto": "使会场合而���一的歌曲。大家一起飞起来吧!",
     "type": "g",
     "from": "南条爱乃",
     "from_who": null,
@@ -4314,7 +4314,7 @@
   {
     "id": 4435,
     "uuid": "746f0bba-fd90-4084-858e-eb6b49c36b96",
-    "hitokoto": "旅游的意义在于，看那些你不曾经历过的事情，见那些你可能永远不会再见的人。",
+    "hitokoto": "旅游的意义在于，看那些你不曾经历过的事情，见那些你可能永远不会再见的人���",
     "type": "g",
     "from": "柯宝宝",
     "from_who": null,
@@ -6108,7 +6108,7 @@
     "uuid": "55d85c9e-511e-4c76-a24b-b48f3ad36118",
     "hitokoto": "I think I speak very poor English, but anyway I dare to say. This is very important.",
     "type": "g",
-    "from": "��泽民",
+    "from": "江泽民",
     "from_who": null,
     "creator": "SomeyaMako",
     "creator_uid": 7867,
@@ -7324,7 +7324,7 @@
   {
     "id": 8494,
     "uuid": "a1fd391b-33be-4f4b-98b5-c091dec07790",
-    "hitokoto": "清晨炎午凉夜一整天都在想关于你的��情，甚至还会妄想起奇怪的事情，不会败给不能与你相见的时间，我会变得可爱迷人起来的，所以你一定要察觉到我哦。",
+    "hitokoto": "清晨炎午凉夜一整天都在想关于你的事情，甚至还会妄想起奇怪的事情，不会败给不能与你相见的时间，我会变得可爱迷人起来的，所以你一定要察觉到我哦。",
     "type": "g",
     "from": "可愛くなりたい",
     "from_who": "鎖那",
@@ -8416,7 +8416,7 @@
   {
     "id": 9291,
     "uuid": "1c90b430-8ded-432a-8828-43a7af8a8092",
-    "hitokoto": "平凡的起起落落、漂浮的因果对错，都可以向风诉说。",
+    "hitokoto": "平凡的起起落���、漂浮的因果对错，都可以向风诉说。",
     "type": "g",
     "from": "让风告诉你",
     "from_who": "Chilichill",
@@ -8808,7 +8808,7 @@
   {
     "id": 9911,
     "uuid": "bb826f24-388e-4776-a983-5e5521c622e1",
-    "hitokoto": "���我们分道扬镳、囿于前路之时，到那时就如千百回的羁绊般紧紧相拥。",
+    "hitokoto": "如我们分道扬镳、囿于前路之时，到那时就如千百回的羁绊般紧紧相拥。",
     "type": "g",
     "from": "ロウワー - ぬゆり",
     "from_who": "ぬゆり",
@@ -10974,5 +10974,61 @@
     "commit_from": "web",
     "created_at": "1782046901",
     "length": 14
+  },
+  {
+    "id": 11548,
+    "uuid": "9cbeab79-b9e4-4257-a991-465a345346e5",
+    "hitokoto": "忙碌的人群，匆匆的时间，走进这大千世界。",
+    "type": "g",
+    "from": "那些年的青春回忆",
+    "from_who": "1983组合",
+    "creator": "BSLT20240814",
+    "creator_uid": 20580,
+    "reviewer": 20537,
+    "commit_from": "web",
+    "created_at": "1782267356",
+    "length": 20
+  },
+  {
+    "id": 11549,
+    "uuid": "5aac2778-f2f1-4cf9-be8f-0ae80fbf7865",
+    "hitokoto": "亲爱的人啊携手前进，我们的生活充满阳光。",
+    "type": "g",
+    "from": "我们的生活充满阳光",
+    "from_who": "秦志钰",
+    "creator": "BSLT20240814",
+    "creator_uid": 20580,
+    "reviewer": 20537,
+    "commit_from": "web",
+    "created_at": "1782275667",
+    "length": 20
+  },
+  {
+    "id": 11550,
+    "uuid": "2f5f2220-d12c-4cb8-bd5c-d3044c679c49",
+    "hitokoto": "共同许下的誓言，永远不改变。我要说：“青春无怨”！",
+    "type": "g",
+    "from": "那些年的青春回忆",
+    "from_who": "1983组合",
+    "creator": "BSLT20240814",
+    "creator_uid": 20580,
+    "reviewer": 20537,
+    "commit_from": "web",
+    "created_at": "1782275758",
+    "length": 25
+  },
+  {
+    "id": 11551,
+    "uuid": "2f1e3a46-c717-427f-a417-7e85a0ac9058",
+    "hitokoto": "我们的心儿飞向远方，憧憬那美好的革命理想。",
+    "type": "g",
+    "from": "我们的生活充满阳光",
+    "from_who": "秦志钰",
+    "creator": "BSLT20240814",
+    "creator_uid": 20580,
+    "reviewer": 20537,
+    "commit_from": "web",
+    "created_at": "1782275860",
+    "length": 21
   }
 ]
