@@ -93,7 +93,7 @@
     .nav-cta:hover { transform: translateY(-1px); box-shadow: 0 4px 16px var(--accent-glow); }
 
     /* Hero */
-    .hero { text-align: center; padding: 100px 0 70px; }
+    .hero { text-align: center; padding: 100px 0 30px; }
     .hero-badge {
       display: inline-flex;
       align-items: center;
@@ -497,8 +497,22 @@
       </div>
     </section>
 
+    <!-- Demo -->
+    <section id="demo" style="padding-top: 0;">
+      <div class="card">
+        <div class="demo-box">
+          <div class="demo-text" id="hitokoto-text">正在加载...</div>
+          <div class="demo-source" id="hitokoto-source"></div>
+          <div class="demo-status" id="hitokoto-status"></div>
+          <div class="demo-actions">
+            <button class="refresh-btn" id="refresh-btn" onclick="fetchHitokoto()">换一句</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Stats -->
-    <section id="stats" style="padding-top: 0;">
+    <section id="stats">
       <div class="stats-grid">
         <div class="stat-card">
           <div class="stat-value gradient">8,985</div>
@@ -519,23 +533,6 @@
           <div class="stat-value gradient">&lt;50ms</div>
           <div class="stat-label">边缘响应</div>
           <div class="stat-sub">全球加速</div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Demo -->
-    <section id="demo">
-      <div class="section-label">在线演示</div>
-      <h2 class="section-title">随机一言</h2>
-      <p class="section-desc">点击下方按钮，随机获取一条精选句子，带打字机动画效果。</p>
-      <div class="card">
-        <div class="demo-box">
-          <div class="demo-text" id="hitokoto-text">正在加载...</div>
-          <div class="demo-source" id="hitokoto-source"></div>
-          <div class="demo-status" id="hitokoto-status"></div>
-          <div class="demo-actions">
-            <button class="refresh-btn" id="refresh-btn" onclick="fetchHitokoto()">换一句</button>
-          </div>
         </div>
       </div>
     </section>
