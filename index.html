@@ -452,6 +452,11 @@
     .footer-inner a { color: var(--accent-light); text-decoration: none; transition: color 0.2s; }
     .footer-inner a:hover { color: var(--text-primary); }
 
+    /* Demo 区间距与锚点偏移 */
+    #demo { padding: 0 0 20px; scroll-margin-top: 80px; }
+    #demo .card { margin-bottom: 0; }
+    #stats { padding-top: 20px; }
+
     /* Responsive */
     @media (max-width: 768px) {
       .hero h1 { font-size: 2.4em; }
@@ -734,6 +739,19 @@
       document.querySelectorAll('.faq-item').forEach(function(el) { el.classList.remove('open'); });
       if (!isOpen) item.classList.add('open');
     }
+
+    // 点击"演示/立即体验"时，平滑滚动到演示卡片垂直居中位置
+    document.querySelectorAll('a[href="#demo"]').forEach(function(link) {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        var target = document.getElementById('demo');
+        if (!target) return;
+        var navHeight = document.querySelector('nav').offsetHeight;
+        var rect = target.getBoundingClientRect();
+        var offset = rect.top + window.scrollY - (window.innerHeight - rect.height) / 2 + navHeight / 2;
+        window.scrollTo({ top: offset, behavior: 'smooth' });
+      });
+    });
 
     // 打字机效果（保留原有逻辑）
     var typewriter = {
