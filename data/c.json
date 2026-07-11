@@ -5868,7 +5868,7 @@
   {
     "id": 8067,
     "uuid": "25a6c51d-c397-4c41-9ecc-92884131cc1b",
-    "hitokoto": "来吧，南无三！",
+    "hitokoto": "来吧，南无��！",
     "type": "c",
     "from": "东方project",
     "from_who": "白莲",
@@ -8220,7 +8220,7 @@
   {
     "id": 9138,
     "uuid": "b50d26c5-b7bc-4753-abaa-54a1cb78bcaa",
-    "hitokoto": "人们只因未知而感到恐惧，可一旦人们面对未知，就会变得无所畏惧。",
+    "hitokoto": "人们只因未知而感到恐惧，可一旦人们面对未知，就会变得无��畏惧。",
     "type": "c",
     "from": "Counter-Strike:Global Offensive",
     "from_who": "安东尼·德·圣-埃克苏佩里",
@@ -11734,7 +11734,7 @@
   {
     "id": 10498,
     "uuid": "0f110f5b-60ce-4fa1-bfc1-8a01c4396edf",
-    "hitokoto": "メンカタカラメヤサイダブルニンニクアブラマシマシ！",
+    "hitokoto": "メン��タカラメヤサイダブルニンニクアブラマシマシ！",
     "type": "c",
     "from": "魔女的夜宴",
     "from_who": "绫地宁宁",
@@ -15748,5 +15748,19 @@
     "commit_from": "web",
     "created_at": "1783455304",
     "length": 21
+  },
+  {
+    "id": 11703,
+    "uuid": "5004c79d-4800-4e9b-b637-ab8e6b4a7396",
+    "hitokoto": "明日仍可期，梦想会绽放，属于我们世代的荣光。",
+    "type": "c",
+    "from": "节奏天国：大家一起来",
+    "from_who": null,
+    "creator": "LampyStar",
+    "creator_uid": 20318,
+    "reviewer": 20537,
+    "commit_from": "web",
+    "created_at": "1783695835",
+    "length": 22
   }
 ]
