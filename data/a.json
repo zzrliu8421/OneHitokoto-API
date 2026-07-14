@@ -102,7 +102,7 @@
     "uuid": "3b2e6049-5dca-4cfe-9b4a-f16b6db17c38",
     "hitokoto": "花开花落，再灿烂的星光也会消失。",
     "type": "a",
-    "from": "圣斗士星矢",
+    "from": "圣斗士星���",
     "from_who": null,
     "creator": "水幻之音",
     "creator_uid": 0,
@@ -604,7 +604,7 @@
   {
     "id": 46,
     "uuid": "7ade5f7b-a3a6-40af-9121-fbd614ee1617",
-    "hitokoto": "廉价的自尊、粗劣的傲气，无论哪个后���小辈都很重视这些东西。",
+    "hitokoto": "廉价的自尊、粗劣的傲气，无论哪个后生小辈都很重视这些东西。",
     "type": "a",
     "from": "狼与香辛料",
     "from_who": null,
@@ -716,7 +716,7 @@
   {
     "id": 55,
     "uuid": "0742b29c-c8d2-4ba3-b5ce-277a5b07bf39",
-    "hitokoto": "和哥哥的便当比起来夜空的薯片就像大便一样！只会给我大便的大便夜空是笨蛋～笨蛋～",
+    "hitokoto": "和哥哥��便当比起来夜空的薯片就像大便一样！只会给我大便的大便夜空是笨蛋～笨蛋～",
     "type": "a",
     "from": "我的朋友很少",
     "from_who": null,
@@ -1278,7 +1278,7 @@
     "uuid": "fcae356a-9ac1-477a-b523-3d528bb3beea",
     "hitokoto": "你的心可以属于耶稣，但你的屁股永远属于陆战队！",
     "type": "a",
-    "from": "魔法少女陆战队",
+    "from": "魔法少���陆战队",
     "from_who": null,
     "creator": "jordan2004a",
     "creator_uid": 0,
@@ -15276,7 +15276,7 @@
   {
     "id": 6587,
     "uuid": "4ffc1c0b-4a08-4f3d-9deb-b1ab867eb5f4",
-    "hitokoto": "英雄意味着强大，英雄意味着孤独，最后一幕一定是英雄渐行渐远，我的英雄也是那样的存在。",
+    "hitokoto": "英雄意味着强大，英雄意味着孤独，最后��幕一定是英雄渐行渐远，我的英雄也是那样的存在。",
     "type": "a",
     "from": "四月是你的谎言",
     "from_who": "相座武士",
@@ -15838,7 +15838,7 @@
     "uuid": "37ec8519-8113-48a0-9ca5-1c44234913eb",
     "hitokoto": "这个地方的人们，就是我战斗的理由。",
     "type": "a",
-    "from": "战翼的希格德莉法",
+    "from": "战翼的希格���莉法",
     "from_who": "卡劳迪亚",
     "creator": "莉娅碳的骑士",
     "creator_uid": 8310,
@@ -15934,7 +15934,7 @@
   {
     "id": 7006,
     "uuid": "fd7471bc-3ef3-45c3-ab28-5a28edeb880f",
-    "hitokoto": "不要就是不要，要学会大声���出口，这样才能保护你自己。",
+    "hitokoto": "不要就是不要，要学会大声说出口，这样才能保护你自己。",
     "type": "a",
     "from": "魔女之旅",
     "from_who": "芙兰",
@@ -16396,7 +16396,7 @@
   {
     "id": 7179,
     "uuid": "86259de2-47db-4395-97c4-73f5fa238f3c",
-    "hitokoto": "战争是什么？战争只不过是一群人对于另一群人的屠杀，只不过是屠杀的对象有所不同而已。",
+    "hitokoto": "战争是什么？战争只不过是一群人对于另一群人的屠杀，只不过是屠杀的对象有所不���而已。",
     "type": "a",
     "from": "紫罗兰的永恒花园",
     "from_who": "艾丹",
@@ -19352,7 +19352,7 @@
     "uuid": "a9042fe2-e730-416a-abbe-39cd909bd5a5",
     "hitokoto": "雪菜比我更重要吗？！",
     "type": "a",
-    "from": "LoveLive虹咲学园偶像同好���",
+    "from": "LoveLive虹咲学园偶像同好会",
     "from_who": "上原步梦",
     "creator": "山楂",
     "creator_uid": 17084,
@@ -20451,6 +20451,20 @@
     "reviewer": 20537,
     "commit_from": "web",
     "created_at": "1783230404",
+    "length": 15
+  },
+  {
+    "id": 11711,
+    "uuid": "e7971561-8ec1-42fe-946b-7f51d7faf825",
+    "hitokoto": "让这不会枯竭的完美之声响彻吧。",
+    "type": "a",
+    "from": "機械の声",
+    "from_who": "V.I.P",
+    "creator": "Pzwboy",
+    "creator_uid": 20200,
+    "reviewer": 20537,
+    "commit_from": "web",
+    "created_at": "1783953298",
     "length": 15
   }
 ]
