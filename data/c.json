@@ -3656,7 +3656,7 @@
   {
     "id": 6576,
     "uuid": "41abb8d8-ae81-4b9c-b8e0-86ed869bef3d",
-    "hitokoto": "物质之外亦有精神的世界。",
+    "hitokoto": "物质之外亦有精��的世界。",
     "type": "c",
     "from": "«红王公的故事»，TNO启示录事件",
     "from_who": "The New Order:Last Days of Europe",
@@ -9410,7 +9410,7 @@
   {
     "id": 9736,
     "uuid": "69690482-1f94-4d40-80ae-2daf711e3075",
-    "hitokoto": "一群白鸽飞过红色瓦片的屋顶，烟囱上升起黑烟。地面上是一片宽阔平坦、修剪精致、嫩绿的草坪，还有灰色的天空，安���祥和……",
+    "hitokoto": "一群白鸽飞过红色瓦片的屋顶，烟囱上升起黑烟。地面上是一片宽阔平坦、修剪精致、嫩绿的草坪，还有灰色的天空，安静祥和……",
     "type": "c",
     "from": "崩坏3",
     "from_who": null,
@@ -12714,7 +12714,7 @@
   {
     "id": 11020,
     "uuid": "1f0c67e4-f94d-44c9-8263-446139fc1a74",
-    "hitokoto": "即便是零星火点，也能重燃一场烈焰。",
+    "hitokoto": "即便是零���火点，也能重燃一场烈焰。",
     "type": "c",
     "from": "蛋仔派对",
     "from_who": null,
@@ -14692,7 +14692,7 @@
     "type": "c",
     "from": "明日方舟",
     "from_who": "望",
-    "creator": "沉默的若���睦",
+    "creator": "沉默的若叶睦",
     "creator_uid": 20828,
     "reviewer": 20537,
     "commit_from": "web",
@@ -15290,7 +15290,7 @@
   {
     "id": 11613,
     "uuid": "cdea4d11-aee3-46ac-9948-5e5b3327f567",
-    "hitokoto": "要是能把你脑子里的程序改改，让你掉头就跑，算不算做了件好事？",
+    "hitokoto": "要是能把你脑子里的程序改改，让你掉头就跑，算不���做了件好事？",
     "type": "c",
     "from": "明日方舟",
     "from_who": "可露希尔",
@@ -15332,7 +15332,7 @@
   {
     "id": 11616,
     "uuid": "6cc604cd-d44e-4a19-ab4b-a862003c0c75",
-    "hitokoto": "圣山所见证的胜利。披挂风雪的战士啊，我们即将踏上归途。",
+    "hitokoto": "圣山所见证的胜利。披挂风雪的战士���，我们即将踏上归途。",
     "type": "c",
     "from": "明日方舟",
     "from_who": null,
@@ -15804,5 +15804,61 @@
     "commit_from": "web",
     "created_at": "1784041770",
     "length": 44
+  },
+  {
+    "id": 11719,
+    "uuid": "1b132710-aebd-478e-a4d1-ab96c949fb5e",
+    "hitokoto": "自然进化一直以来只能用一个简单且粗暴的词来形容：失败。如今，我们将亲自定义成功。",
+    "type": "c",
+    "from": "群星",
+    "from_who": null,
+    "creator": "DreamOne",
+    "creator_uid": 9209,
+    "reviewer": 20537,
+    "commit_from": "web",
+    "created_at": "1784234576",
+    "length": 40
+  },
+  {
+    "id": 11720,
+    "uuid": "781d6fa2-f051-418f-bbdc-e6ebefb14fc3",
+    "hitokoto": "我们将熔世界为一城，筑一城为世界。",
+    "type": "c",
+    "from": "群星",
+    "from_who": null,
+    "creator": "DreamOne",
+    "creator_uid": 9209,
+    "reviewer": 20537,
+    "commit_from": "web",
+    "created_at": "1784234598",
+    "length": 17
+  },
+  {
+    "id": 11721,
+    "uuid": "3506b54d-14a2-4e03-8e96-007097f23ecf",
+    "hitokoto": "我在此庄严宣誓：我此生将不遗余力，用以保卫地球联合国，保护人类火种的延续以及深空全体知性生命，从太平洋的深渊，到银河的边陲，今日起誓，至死方休。",
+    "type": "c",
+    "from": "群星",
+    "from_who": null,
+    "creator": "DreamOne",
+    "creator_uid": 9209,
+    "reviewer": 20537,
+    "commit_from": "web",
+    "created_at": "1784234711",
+    "length": 72
+  },
+  {
+    "id": 11722,
+    "uuid": "bdd9f5f6-aea6-42e8-9692-3e8bdc8922e6",
+    "hitokoto": "不要打破第四面墙，你这小聪明鬼。",
+    "type": "c",
+    "from": "群星",
+    "from_who": null,
+    "creator": "DreamOne",
+    "creator_uid": 9209,
+    "reviewer": 20537,
+    "commit_from": "web",
+    "created_at": "1784235365",
+    "length": 16
   }
 ]
