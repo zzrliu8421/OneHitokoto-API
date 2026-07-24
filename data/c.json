@@ -1178,7 +1178,7 @@
   {
     "id": 3657,
     "uuid": "4660d02e-e841-4238-be2a-6196f1a39ffd",
-    "hitokoto": "在那里，悖论相互交织成结并最终凝结成一个意识体，一个处于时间之外的欲望与意志的联结。",
+    "hitokoto": "在那里��悖论相互交织成结并最终凝结成一个意识体，一个处于时间之外的欲望与意志的联结。",
     "type": "c",
     "from": "Stellaris",
     "from_who": null,
@@ -2396,7 +2396,7 @@
   {
     "id": 4524,
     "uuid": "fc576dbe-c334-4ac6-85fe-3479440a52fe",
-    "hitokoto": "生于黑暗，侍奉光明。万物皆虚，万事皆允。",
+    "hitokoto": "生于黑暗，���奉光明。万物皆虚，万事皆允。",
     "type": "c",
     "from": "刺客信条",
     "from_who": null,
@@ -15860,5 +15860,33 @@
     "commit_from": "web",
     "created_at": "1784235365",
     "length": 16
+  },
+  {
+    "id": 11744,
+    "uuid": "b82604bd-f6d0-4359-9b27-f58e851571d3",
+    "hitokoto": "还请觉悟。今朝此日，都市一星，势必陨灭。",
+    "type": "c",
+    "from": "废墟图书馆",
+    "from_who": "邵",
+    "creator": "洛洛",
+    "creator_uid": 20928,
+    "reviewer": 20537,
+    "commit_from": "web",
+    "created_at": "1784825264",
+    "length": 20
+  },
+  {
+    "id": 11745,
+    "uuid": "4cbe55cb-777c-497b-abe3-bc6827d81078",
+    "hitokoto": "长大之后…我想成为妈妈的妈妈…这样我就能给妈妈更多的爱了……",
+    "type": "c",
+    "from": "边狱巴士",
+    "from_who": "阿赖耶",
+    "creator": "洛洛",
+    "creator_uid": 20928,
+    "reviewer": 20537,
+    "commit_from": "web",
+    "created_at": "1784825472",
+    "length": 30
   }
 ]

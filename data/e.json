@@ -17267,7 +17267,7 @@
     "hitokoto": "想对你说一句你真厉害，现在竟会犹豫。",
     "type": "e",
     "from": "有感",
-    "from_who": "茉莉雨",
+    "from_who": "茉��雨",
     "creator": "茉莉雨.",
     "creator_uid": 18945,
     "reviewer": 20537,
@@ -18426,7 +18426,7 @@
   {
     "id": 10655,
     "uuid": "fae622fd-d9ee-4ae7-aac3-f4a70e3b1963",
-    "hitokoto": "少年总觉明日贵，却不知——今朝的笑声，才是买不回���金。",
+    "hitokoto": "少年总觉明日贵，却不知——今朝的笑声，才是买不回的金。",
     "type": "e",
     "from": "本人",
     "from_who": "神",
@@ -20522,5 +20522,19 @@
     "commit_from": "web",
     "created_at": "1784280646",
     "length": 38
+  },
+  {
+    "id": 11746,
+    "uuid": "d653f024-8ccf-4b75-9f6c-4c9b4cb3ef94",
+    "hitokoto": "广阔的水才有蓝色。",
+    "type": "e",
+    "from": "海",
+    "from_who": "洛洛",
+    "creator": "洛洛",
+    "creator_uid": 20928,
+    "reviewer": 20537,
+    "commit_from": "web",
+    "created_at": "1784825696",
+    "length": 9
   }
 ]
