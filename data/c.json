@@ -9424,7 +9424,7 @@
   {
     "id": 9737,
     "uuid": "44a00376-2c92-4ded-92c9-4596a61ec4a8",
-    "hitokoto": "宇宙是空无一物的世界，比大海更浩瀚千万亿倍。一个人置身其中，就算有绝对的自由，也注定要���受生不如死的孤独。",
+    "hitokoto": "宇宙是空无一物的世界，比大海更浩瀚千万亿倍。一个人置身其中，就算有绝对的自由，也注定要承受生不如死的孤独。",
     "type": "c",
     "from": "崩坏3",
     "from_who": "莫里亚蒂",
@@ -10992,7 +10992,7 @@
   {
     "id": 10168,
     "uuid": "2c73eb95-0ce2-4886-b2b9-7a23bce80c82",
-    "hitokoto": "我们在一起，才会更强大。",
+    "hitokoto": "我们���一起，才会更强大。",
     "type": "c",
     "from": "战地风云5",
     "from_who": "彼得·穆勒",
@@ -11748,7 +11748,7 @@
   {
     "id": 10504,
     "uuid": "e52dd9af-ebc1-4bf7-937f-2e33ba6b3fd6",
-    "hitokoto": "走过饿殍遍野的荒土，便觉得如今的一���都弥足珍贵。",
+    "hitokoto": "走过饿殍遍野的荒土，便觉得如今的一切都弥足珍贵。",
     "type": "c",
     "from": "鸣潮",
     "from_who": null,
@@ -13316,7 +13316,7 @@
   {
     "id": 11105,
     "uuid": "ba046d1e-efb0-4b1c-a665-3b56dc7ad3d8",
-    "hitokoto": "真正的诅咒，不是生命本身，而是生命想要生长却被困住，无能为力的痛苦。",
+    "hitokoto": "真正的诅咒，不是生命���身，而是生命想要生长却被困住，无能为力的痛苦。",
     "type": "c",
     "from": "无限暖暖",
     "from_who": null,
@@ -15290,7 +15290,7 @@
   {
     "id": 11613,
     "uuid": "cdea4d11-aee3-46ac-9948-5e5b3327f567",
-    "hitokoto": "要是能把你脑子里的程序改改，让��掉头就跑，算不算做了件好事？",
+    "hitokoto": "要是能把你脑子里的程序改改，让你掉头就跑，算不算做了件好事？",
     "type": "c",
     "from": "明日方舟",
     "from_who": "可露希尔",
@@ -15685,7 +15685,7 @@
     "hitokoto": "盖牌认输永远不在选择之列。",
     "type": "c",
     "from": "命运2",
-    "from_who": "凯德6号",
+    "from_who": "���德6号",
     "creator": "ReClock55",
     "creator_uid": 20879,
     "reviewer": 20537,
@@ -15888,5 +15888,19 @@
     "commit_from": "web",
     "created_at": "1784825472",
     "length": 30
+  },
+  {
+    "id": 11812,
+    "uuid": "69c7d66f-7e14-49f6-8652-59dc8fc5feb8",
+    "hitokoto": "无限的奇迹，无尽的可能。",
+    "type": "c",
+    "from": "Minecraft",
+    "from_who": "Minecraft",
+    "creator": "retaWtaC",
+    "creator_uid": 20973,
+    "reviewer": 20537,
+    "commit_from": "web",
+    "created_at": "1785944948",
+    "length": 12
   }
 ]
