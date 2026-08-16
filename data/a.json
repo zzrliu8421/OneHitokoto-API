@@ -1278,7 +1278,7 @@
     "uuid": "fcae356a-9ac1-477a-b523-3d528bb3beea",
     "hitokoto": "你的心可以属于耶稣，但你的屁股永远属于陆战队！",
     "type": "a",
-    "from": "魔法少女陆战队",
+    "from": "魔法少���陆战队",
     "from_who": null,
     "creator": "jordan2004a",
     "creator_uid": 0,
@@ -1318,7 +1318,7 @@
   {
     "id": 98,
     "uuid": "a8808f16-1688-44df-9841-102ce9775f8d",
-    "hitokoto": "烦恼这东西，是只有活��的人，才有的特权哦。",
+    "hitokoto": "烦恼这东西，是只有活着的人，才有的特权哦。",
     "type": "a",
     "from": "我们的存在",
     "from_who": null,
@@ -1416,7 +1416,7 @@
   {
     "id": 105,
     "uuid": "574091b0-1dd7-437c-9a92-d897973d6118",
-    "hitokoto": "最近困扰我的是小小的分别，总会带来一丝寂寞。短暂的相遇和分别那一分一秒���时间都让我想要无比珍惜。",
+    "hitokoto": "最近困扰我的是小小的分别，总会带来一丝寂寞。短暂的相遇和分别那一分一秒的时间都让我想要无比珍惜。",
     "type": "a",
     "from": "夏目友人帐",
     "from_who": null,
@@ -20480,5 +20480,33 @@
     "commit_from": "web",
     "created_at": "1784041633",
     "length": 54
+  },
+  {
+    "id": 12337,
+    "uuid": "4f4e4807-e0ad-4a47-8641-37debc4b61d0",
+    "hitokoto": "如果我们能够活着回去，万水千山你愿意陪我一起看吗？",
+    "type": "a",
+    "from": "狐妖小红娘",
+    "from_who": "庹小新",
+    "creator": "kami",
+    "creator_uid": 21014,
+    "reviewer": 20537,
+    "commit_from": "web",
+    "created_at": "1786791959",
+    "length": 25
+  },
+  {
+    "id": 12338,
+    "uuid": "56597fa3-1144-4e98-9c08-3f07008855fe",
+    "hitokoto": "做人不能忘本！",
+    "type": "a",
+    "from": "斗罗大陆",
+    "from_who": "唐三",
+    "creator": "kami",
+    "creator_uid": 21014,
+    "reviewer": 20537,
+    "commit_from": "web",
+    "created_at": "1786792448",
+    "length": 7
   }
 ]
