@@ -4874,7 +4874,7 @@
   {
     "id": 4839,
     "uuid": "28385116-f1c6-48dc-aafc-a49af65724e7",
-    "hitokoto": "人生就像一杯茶，不会苦一辈子，但会苦一阵子",
+    "hitokoto": "人生就像一杯茶，不会���一辈子，但会苦一阵子",
     "type": "g",
     "from": "启东中学作业本",
     "from_who": null,
@@ -6022,7 +6022,7 @@
   {
     "id": 6630,
     "uuid": "dcb7cc29-8b67-43c4-b053-c9b467582656",
-    "hitokoto": "我的容身之所，就是你的身边。",
+    "hitokoto": "���的容身之所，就是你的身边。",
     "type": "g",
     "from": "理与迷宫的少女",
     "from_who": "夏彦深见",
@@ -7786,7 +7786,7 @@
   {
     "id": 8877,
     "uuid": "35537743-770a-4c5b-a4bc-cca8c64245b2",
-    "hitokoto": "思想比武器更有威力。我们是绝不会给敌人任何武器的。难道我们会让敌人有思想吗?",
+    "hitokoto": "思想比���器更有威力。我们是绝不会给敌人任何武器的。难道我们会让敌人有思想吗?",
     "type": "g",
     "from": "斯大林",
     "from_who": null,
@@ -9522,7 +9522,7 @@
   {
     "id": 10318,
     "uuid": "31fb8b8f-52bc-4f7f-87f0-db0268932698",
-    "hitokoto": "放任无奈，淹没尘��，我在废墟之中守着你走来。",
+    "hitokoto": "放任无奈，淹没尘埃，我在废墟之中守着你走来。",
     "type": "g",
     "from": "一千年以后",
     "from_who": "林俊杰",
@@ -11874,7 +11874,7 @@
   {
     "id": 11836,
     "uuid": "e3f18ea0-3099-4c07-a75e-5e608cd03ddb",
-    "hitokoto": "生きることのひどい痛みには、意味があると信���てる。",
+    "hitokoto": "生きることのひどい痛みには、意味があると��じてる。",
     "type": "g",
     "from": "Brand New",
     "from_who": "大森元貴",
@@ -16462,5 +16462,61 @@
     "commit_from": "api",
     "created_at": "1786795314",
     "length": 13
+  },
+  {
+    "id": 12359,
+    "uuid": "42c387d4-c555-4b97-bce2-c4a73f456615",
+    "hitokoto": "看看当年那些人是否记得我们。",
+    "type": "g",
+    "from": "我的纸飞机",
+    "from_who": null,
+    "creator": "小孟科技",
+    "creator_uid": 20798,
+    "reviewer": 20537,
+    "commit_from": "api",
+    "created_at": "1786907019",
+    "length": 14
+  },
+  {
+    "id": 12360,
+    "uuid": "2690f353-1033-4fc2-a36c-5eff9e00c9d8",
+    "hitokoto": "那是年少时的我们，在夜空下看星空。",
+    "type": "g",
+    "from": "我的纸飞机",
+    "from_who": null,
+    "creator": "小孟科技",
+    "creator_uid": 20798,
+    "reviewer": 20537,
+    "commit_from": "api",
+    "created_at": "1786907026",
+    "length": 17
+  },
+  {
+    "id": 12361,
+    "uuid": "950407ed-860e-4690-91f0-0dba89152d74",
+    "hitokoto": "飞往回忆里的纸飞机啊也捎带哀愁。",
+    "type": "g",
+    "from": "我的纸飞机",
+    "from_who": null,
+    "creator": "小孟科技",
+    "creator_uid": 20798,
+    "reviewer": 20537,
+    "commit_from": "api",
+    "created_at": "1786907029",
+    "length": 16
+  },
+  {
+    "id": 12363,
+    "uuid": "295c6afc-754e-44bd-95d0-7e66a28cb022",
+    "hitokoto": "吹过小山坡的秋风还带着懵懂。",
+    "type": "g",
+    "from": "我的纸飞机",
+    "from_who": null,
+    "creator": "小孟科技",
+    "creator_uid": 20798,
+    "reviewer": 20537,
+    "commit_from": "api",
+    "created_at": "1786907023",
+    "length": 14
   }
 ]
