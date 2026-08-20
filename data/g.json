@@ -11874,7 +11874,7 @@
   {
     "id": 11836,
     "uuid": "e3f18ea0-3099-4c07-a75e-5e608cd03ddb",
-    "hitokoto": "生きることのひどい痛みには、意味があると��じてる。",
+    "hitokoto": "生きることのひどい痛みには、意味があると信じてる。",
     "type": "g",
     "from": "Brand New",
     "from_who": "大森元貴",
@@ -12522,7 +12522,7 @@
     "type": "g",
     "from": "你有没有真的爱过我",
     "from_who": "廖伟志",
-    "creator": "小孟科技",
+    "creator": "小��科技",
     "creator_uid": 20798,
     "reviewer": 20537,
     "commit_from": "web",
@@ -15516,7 +15516,7 @@
     "uuid": "3fb0eeda-696f-4bbb-bd1e-c693aa80943b",
     "hitokoto": "山外连着山连着山连着山。",
     "type": "g",
-    "from": "每个�� (舒楠监制 官方正式版)",
+    "from": "每个人 (舒楠监制 官方正式版)",
     "from_who": "玉镯儿",
     "creator": "小孟科技",
     "creator_uid": 20798,
@@ -16532,5 +16532,33 @@
     "commit_from": "web",
     "created_at": "1787055199",
     "length": 20
+  },
+  {
+    "id": 12384,
+    "uuid": "6df49790-7b81-420b-94a7-ee8fa81fb1a6",
+    "hitokoto": "同志们，你们必须要记住：我们只有一条出路，那就是胜利！还有另外一条出路，死亡。死亡不属于工人阶级！",
+    "type": "g",
+    "from": "1918演讲",
+    "from_who": "列宁",
+    "creator": "magicso",
+    "creator_uid": 21024,
+    "reviewer": 20537,
+    "commit_from": "web",
+    "created_at": "1787142527",
+    "length": 49
+  },
+  {
+    "id": 12385,
+    "uuid": "bd72475d-15a2-425b-87c4-9ed500ec0e58",
+    "hitokoto": "我们让资产阶级们去发疯吧！让那些无价值的灵魂去哭泣吧。",
+    "type": "g",
+    "from": "1918演讲",
+    "from_who": "列宁",
+    "creator": "magicso",
+    "creator_uid": 21024,
+    "reviewer": 20537,
+    "commit_from": "web",
+    "created_at": "1787142664",
+    "length": 27
   }
 ]
