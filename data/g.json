@@ -11692,7 +11692,7 @@
   {
     "id": 11822,
     "uuid": "e0896de8-089e-4a3b-8385-0deaa9ceb725",
-    "hitokoto": "你抱我吻上我嘴巴，却似你吻向他。",
+    "hitokoto": "���抱我吻上我嘴巴，却似你吻向他。",
     "type": "g",
     "from": "半点心",
     "from_who": "潘源良",
@@ -12522,7 +12522,7 @@
     "type": "g",
     "from": "你有没有真的爱过我",
     "from_who": "廖伟志",
-    "creator": "小��科技",
+    "creator": "小孟科技",
     "creator_uid": 20798,
     "reviewer": 20537,
     "commit_from": "web",
@@ -12896,7 +12896,7 @@
   {
     "id": 11954,
     "uuid": "78420ad7-8429-434e-b8f8-98bcf32cb946",
-    "hitokoto": "我知道爱是fantasy，爱你是否还来得及？",
+    "hitokoto": "我知道爱���fantasy，爱你是否还来得及？",
     "type": "g",
     "from": "飞向别人的床",
     "from_who": "沉珂C.K&光光",
@@ -16560,5 +16560,19 @@
     "commit_from": "web",
     "created_at": "1787142664",
     "length": 27
+  },
+  {
+    "id": 12388,
+    "uuid": "801ed82f-5f40-44ef-8544-59a634d85c20",
+    "hitokoto": "为了共产主义而奋斗！",
+    "type": "g",
+    "from": "1918演讲",
+    "from_who": "列宁",
+    "creator": "magicso",
+    "creator_uid": 21024,
+    "reviewer": 20537,
+    "commit_from": "web",
+    "created_at": "1787229779",
+    "length": 10
   }
 ]
