@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <style>
+    .bg{fill:#1A1A18}
+    .fg{fill:#FDFCF8}
+    .dot{fill:#B8A08A}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#EDEAE2}
+      .fg{fill:#161512}
+      .dot{fill:#8A6F52}
+    }
+  </style>
+  <rect class="bg" width="64" height="64" rx="14"/>
+  <text x="32" y="44" font-family="'Noto Serif SC','Source Han Serif SC','Songti SC',Georgia,'Times New Roman',serif" font-size="36" font-weight="700" text-anchor="middle" class="fg">言</text>
+  <circle class="dot" cx="49" cy="15" r="3.5"/>
+</svg>
