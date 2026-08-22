@@ -109,6 +109,7 @@
     }
     .brand{
       display:flex;align-items:center;gap:10px;
+      flex:1 1 0; min-width:0;
       text-decoration:none; color:var(--ink);
       letter-spacing:-.02em;
     }
@@ -137,7 +138,7 @@
     .nav-links a:hover{color:var(--ink)}
     .nav-links a:hover::after{transform:scaleX(1)}
     .menu-btn{display:none; border:1px solid var(--line); background:var(--surface); border-radius:8px; width:36px; height:36px; place-items:center; cursor:pointer; color:var(--ink-2)}
-    .nav-actions{display:flex; align-items:center; gap:8px}
+    .nav-actions{flex:1 1 0; display:flex; align-items:center; justify-content:flex-end; gap:8px}
     .theme-btn{
       display:grid; place-items:center; width:36px; height:36px;
       border:1px solid var(--line); background:var(--surface); border-radius:8px;
