@@ -9928,7 +9928,7 @@
   {
     "id": 10852,
     "uuid": "bcc672b7-9566-409a-a96a-0807c73a7bee",
-    "hitokoto": "半山腰太挤了，���想去山顶看看。",
+    "hitokoto": "半山腰太挤了，我想去山顶看看。",
     "type": "g",
     "from": "必刷题",
     "from_who": null,
@@ -11692,7 +11692,7 @@
   {
     "id": 11822,
     "uuid": "e0896de8-089e-4a3b-8385-0deaa9ceb725",
-    "hitokoto": "���抱我吻上我嘴巴，却似你吻向他。",
+    "hitokoto": "你抱我吻上我嘴巴，却似你吻向他。",
     "type": "g",
     "from": "半点心",
     "from_who": "潘源良",
@@ -12522,7 +12522,7 @@
     "type": "g",
     "from": "你有没有真的爱过我",
     "from_who": "廖伟志",
-    "creator": "小孟科技",
+    "creator": "小��科技",
     "creator_uid": 20798,
     "reviewer": 20537,
     "commit_from": "web",
@@ -12896,7 +12896,7 @@
   {
     "id": 11954,
     "uuid": "78420ad7-8429-434e-b8f8-98bcf32cb946",
-    "hitokoto": "我知道爱���fantasy，爱你是否还来得及？",
+    "hitokoto": "我知道爱是fantasy，爱你是否还来得及？",
     "type": "g",
     "from": "飞向别人的床",
     "from_who": "沉珂C.K&光光",
@@ -16672,5 +16672,61 @@
     "commit_from": "api",
     "created_at": "1787836224",
     "length": 9
+  },
+  {
+    "id": 12413,
+    "uuid": "22724841-9adf-40eb-bbed-4a2131dee5ba",
+    "hitokoto": "追着山风寻自由。",
+    "type": "g",
+    "from": "追着山风寻自由",
+    "from_who": "王一佳",
+    "creator": "小孟科技",
+    "creator_uid": 20798,
+    "reviewer": 20537,
+    "commit_from": "api",
+    "created_at": "1787841635",
+    "length": 8
+  },
+  {
+    "id": 12415,
+    "uuid": "75a0104b-976b-4010-b46d-2d704c8841d1",
+    "hitokoto": "忘掉世间的烦恼不被命运左右。",
+    "type": "g",
+    "from": "追着山风寻自由",
+    "from_who": "王一佳",
+    "creator": "小孟科技",
+    "creator_uid": 20798,
+    "reviewer": 20537,
+    "commit_from": "api",
+    "created_at": "1787841642",
+    "length": 14
+  },
+  {
+    "id": 12416,
+    "uuid": "624f84ef-993a-47fc-a0cc-7beaf309b162",
+    "hitokoto": "我斟满二两酒任岁月去奔流。",
+    "type": "g",
+    "from": "追着山风寻自由",
+    "from_who": "王一佳",
+    "creator": "小孟科技",
+    "creator_uid": 20798,
+    "reviewer": 20537,
+    "commit_from": "api",
+    "created_at": "1787841646",
+    "length": 13
+  },
+  {
+    "id": 12419,
+    "uuid": "64a506ae-206f-4768-ad64-318d4af0820a",
+    "hitokoto": "闷雷暴雨来。",
+    "type": "g",
+    "from": "闷雷",
+    "from_who": "杨树人",
+    "creator": "小孟科技",
+    "creator_uid": 20798,
+    "reviewer": 20537,
+    "commit_from": "api",
+    "created_at": "1787841696",
+    "length": 6
   }
 ]
