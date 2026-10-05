@@ -646,7 +646,7 @@
   {
     "id": 672,
     "uuid": "6d85ce43-0869-487f-b174-bfcee556b38d",
-    "hitokoto": "使会场合而���一的歌曲。大家一起飞起来吧!",
+    "hitokoto": "使会场合而为一的歌曲。大家一起飞起来吧!",
     "type": "g",
     "from": "南条爱乃",
     "from_who": null,
@@ -1836,7 +1836,7 @@
   {
     "id": 1178,
     "uuid": "9a77305c-56c7-4b46-b617-e927e3e34f13",
-    "hitokoto": "分别后的难过都是依赖，无法相拥的人要好好道别",
+    "hitokoto": "分别后的难过都是依赖，无法相拥��人要好好道别",
     "type": "g",
     "from": "至此流年各天涯",
     "from_who": "我不李志",
@@ -4314,7 +4314,7 @@
   {
     "id": 4435,
     "uuid": "746f0bba-fd90-4084-858e-eb6b49c36b96",
-    "hitokoto": "旅游的意义在于，看那些你不曾经历过的事情，见那些你可能永远不会再见的人���",
+    "hitokoto": "旅游的意义在于，看那些你不曾经历过的事情，见那些你可能永远不会再见的人。",
     "type": "g",
     "from": "柯宝宝",
     "from_who": null,
@@ -8416,7 +8416,7 @@
   {
     "id": 9291,
     "uuid": "1c90b430-8ded-432a-8828-43a7af8a8092",
-    "hitokoto": "平凡的起起落���、漂浮的因果对错，都可以向风诉说。",
+    "hitokoto": "平凡的起起落落、漂浮的因果对错，都可以向风诉说。",
     "type": "g",
     "from": "让风告诉你",
     "from_who": "Chilichill",
@@ -9539,7 +9539,7 @@
     "hitokoto": "确认过眼神，我遇上对的人。",
     "type": "g",
     "from": "醉赤壁",
-    "from_who": "林俊杰",
+    "from_who": "林俊��",
     "creator": "茉莉雨.",
     "creator_uid": 18945,
     "reviewer": 20537,
@@ -12522,7 +12522,7 @@
     "type": "g",
     "from": "你有没有真的爱过我",
     "from_who": "廖伟志",
-    "creator": "小��科技",
+    "creator": "小孟科技",
     "creator_uid": 20798,
     "reviewer": 20537,
     "commit_from": "web",
@@ -14944,7 +14944,7 @@
     "type": "g",
     "from": "倾斜的婚礼",
     "from_who": "道雀Bzz",
-    "creator": "小孟科技",
+    "creator": "小孟��技",
     "creator_uid": 20798,
     "reviewer": 20537,
     "commit_from": "api",
@@ -26556,5 +26556,33 @@
     "commit_from": "web",
     "created_at": "1791053781",
     "length": 15
+  },
+  {
+    "id": 13516,
+    "uuid": "f42844b8-a377-472c-a48e-99afc95b395f",
+    "hitokoto": "一个人活了多少岁不算什么，重要的是他如何度过这些岁月。",
+    "type": "g",
+    "from": "亚伯拉罕·林肯",
+    "from_who": "亚伯拉罕·林肯",
+    "creator": "碧水凌涛",
+    "creator_uid": 20913,
+    "reviewer": 20537,
+    "commit_from": "web",
+    "created_at": "1791176640",
+    "length": 27
+  },
+  {
+    "id": 13524,
+    "uuid": "83e41bca-e677-449d-9f22-473856262975",
+    "hitokoto": "地球能满足人类的需要，却满足不了人类的贪婪。",
+    "type": "g",
+    "from": "甘地",
+    "from_who": "甘地",
+    "creator": "碧水凌涛",
+    "creator_uid": 20913,
+    "reviewer": 20537,
+    "commit_from": "web",
+    "created_at": "1791177132",
+    "length": 22
   }
 ]
