@@ -3474,7 +3474,7 @@
   {
     "id": 6558,
     "uuid": "cb68a01a-2c9a-49ff-a207-a12a37b3c766",
-    "hitokoto": "有朝一日，是否��有人纪念他们。",
+    "hitokoto": "有朝一日，是否会有人纪念他们。",
     "type": "c",
     "from": "«纪念之日»，TNO启示录事件",
     "from_who": "The New Order:Last Days of Europe",
@@ -5812,7 +5812,7 @@
   {
     "id": 8052,
     "uuid": "7ff0af5b-f9b5-4731-a525-7a8e303ae620",
-    "hitokoto": "你必��要变强，才可以守护身边的人！",
+    "hitokoto": "你必须要变强，才可以守护身边的人！",
     "type": "c",
     "from": "坎公骑冠剑",
     "from_who": "比什巴赫",
@@ -9368,7 +9368,7 @@
   {
     "id": 9733,
     "uuid": "af27ac66-98cf-48dd-99ad-cb0eb8844c0a",
-    "hitokoto": "哪怕是创造世界的��明，也有主动背弃祂的信众。只要活着，那些爱意、憎恶，便无时无刻不在我们周身旋绕。",
+    "hitokoto": "哪怕是创造世界的神明，也有主动背弃祂的信众。只要活着，那些爱意、憎恶，便无时无刻不在我们周身旋绕。",
     "type": "c",
     "from": "崩坏3",
     "from_who": null,
@@ -10992,7 +10992,7 @@
   {
     "id": 10168,
     "uuid": "2c73eb95-0ce2-4886-b2b9-7a23bce80c82",
-    "hitokoto": "我们在一起，才会更强大。",
+    "hitokoto": "我们���一起，才会更强大。",
     "type": "c",
     "from": "战地风云5",
     "from_who": "彼得·穆勒",
@@ -11678,7 +11678,7 @@
   {
     "id": 10431,
     "uuid": "882b91ba-23a5-4517-b6f2-6106aed9a66f",
-    "hitokoto": "比起分手还是其他什么的，不得不停��对一个人的喜欢才是最痛苦的。",
+    "hitokoto": "比起分手还是其他什么的，不得不停止对一个人的喜欢才是最痛苦的。",
     "type": "c",
     "from": "ヨスガノソラ",
     "from_who": "春日野穹",
@@ -13316,7 +13316,7 @@
   {
     "id": 11105,
     "uuid": "ba046d1e-efb0-4b1c-a665-3b56dc7ad3d8",
-    "hitokoto": "真正的诅咒，不是生命本身，而是生命想要生长却被困住，无能为力的痛苦。",
+    "hitokoto": "真正的诅咒，不是生命���身，而是生命想要生长却被困住，无能为力的痛苦。",
     "type": "c",
     "from": "无限暖暖",
     "from_who": null,
@@ -15220,7 +15220,7 @@
   {
     "id": 11609,
     "uuid": "ae992781-c142-46fd-8c0f-2c35f974a8dc",
-    "hitokoto": "零号油罐，开始收集战���信息！",
+    "hitokoto": "零号油罐，开始收集战场信息！",
     "type": "c",
     "from": "明日方舟",
     "from_who": "可露希尔",
@@ -15685,7 +15685,7 @@
     "hitokoto": "忠诚不是盲目服从，正义没有服务对象。",
     "type": "c",
     "from": "命运2",
-    "from_who": "萨吉拉的机壳",
+    "from_who": "萨吉拉��机壳",
     "creator": "ReClock55",
     "creator_uid": 20879,
     "reviewer": 20537,
@@ -15808,7 +15808,7 @@
   {
     "id": 11720,
     "uuid": "781d6fa2-f051-418f-bbdc-e6ebefb14fc3",
-    "hitokoto": "我们将熔世界为一城，筑一城为世���。",
+    "hitokoto": "我们将熔世界为一城，筑一城为世界。",
     "type": "c",
     "from": "群星",
     "from_who": null,
@@ -16434,5 +16434,61 @@
     "commit_from": "web",
     "created_at": "1791195479",
     "length": 15
+  },
+  {
+    "id": 13535,
+    "uuid": "e4c28e6f-0383-4fba-98a0-f7350794dc3e",
+    "hitokoto": "爱，是不能忘记的。",
+    "type": "c",
+    "from": "王者荣耀",
+    "from_who": "西施",
+    "creator": "凡兔兔",
+    "creator_uid": 21223,
+    "reviewer": 20537,
+    "commit_from": "web",
+    "created_at": "1791478436",
+    "length": 9
+  },
+  {
+    "id": 13536,
+    "uuid": "88ce05f1-083e-42a9-a89a-815c83fb4b31",
+    "hitokoto": "谣言哪有真凭据，只凭他人道长短。",
+    "type": "c",
+    "from": "王者荣耀",
+    "from_who": "西施",
+    "creator": "凡兔兔",
+    "creator_uid": 21223,
+    "reviewer": 20537,
+    "commit_from": "web",
+    "created_at": "1791478476",
+    "length": 16
+  },
+  {
+    "id": 13537,
+    "uuid": "15220488-9cad-4d34-b73e-ad2066abc9d3",
+    "hitokoto": "好山好水好风光，人声如海歌如潮。",
+    "type": "c",
+    "from": "王者荣耀",
+    "from_who": "西施",
+    "creator": "凡兔兔",
+    "creator_uid": 21223,
+    "reviewer": 20537,
+    "commit_from": "web",
+    "created_at": "1791478602",
+    "length": 16
+  },
+  {
+    "id": 13538,
+    "uuid": "ede387c4-ed3a-401a-81a9-944d0edeeedb",
+    "hitokoto": "清和海风，溶溶月色，共赏之人，就在身侧。",
+    "type": "c",
+    "from": "王者荣耀",
+    "from_who": "西施",
+    "creator": "凡兔兔",
+    "creator_uid": 21223,
+    "reviewer": 20537,
+    "commit_from": "web",
+    "created_at": "1791478677",
+    "length": 20
   }
 ]
