@@ -646,7 +646,7 @@
   {
     "id": 672,
     "uuid": "6d85ce43-0869-487f-b174-bfcee556b38d",
-    "hitokoto": "使会场合而���一的歌曲。大家一起飞起来吧!",
+    "hitokoto": "使会场合而为一的歌曲。大家一起飞起来吧!",
     "type": "g",
     "from": "南条爱乃",
     "from_who": null,
@@ -26602,7 +26602,7 @@
   {
     "id": 13533,
     "uuid": "fc72ca63-2ce7-46b7-baeb-d3a9c010faff",
-    "hitokoto": "知晓何为温暖的春天。",
+    "hitokoto": "知晓何为温暖的��天。",
     "type": "g",
     "from": "春日影",
     "from_who": "CRYCHIC",
@@ -26626,5 +26626,19 @@
     "commit_from": "web",
     "created_at": "1791558577",
     "length": 17
+  },
+  {
+    "id": 13568,
+    "uuid": "81149350-76f8-4016-ba2d-a8dd2ab09e38",
+    "hitokoto": "为了你唱下去。",
+    "type": "g",
+    "from": "为了你唱下去",
+    "from_who": "COP",
+    "creator": "whisper_Luo",
+    "creator_uid": 21298,
+    "reviewer": 20537,
+    "commit_from": "web",
+    "created_at": "1793273635",
+    "length": 7
   }
 ]
