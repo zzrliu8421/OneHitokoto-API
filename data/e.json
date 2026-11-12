@@ -1770,7 +1770,7 @@
     "type": "e",
     "from": "温白",
     "from_who": null,
-    "creator": "温白",
+    "creator": "温���",
     "creator_uid": 1150,
     "reviewer": 0,
     "commit_from": "web",
@@ -5406,7 +5406,7 @@
   {
     "id": 5327,
     "uuid": "1d955fb9-5fa7-491e-bddd-7a6f7a067f3a",
-    "hitokoto": "夜空像撒了葡萄酒的甜。诗人在街头晃着酒瓶醉。手里的诗也撕碎成星光。",
+    "hitokoto": "夜空像撒了葡萄酒的甜。诗人在街头晃着酒瓶醉。手���的诗也撕碎成星光。",
     "type": "e",
     "from": "原创",
     "from_who": "夙鱼",
@@ -5994,7 +5994,7 @@
   {
     "id": 6050,
     "uuid": "78a3bde8-582f-484c-bc0d-2b869cef5f56",
-    "hitokoto": "梦醒人终散，缘尽情已空。",
+    "hitokoto": "梦醒人终散，缘尽情���空。",
     "type": "e",
     "from": "原创",
     "from_who": "幻梦琉影",
@@ -7198,7 +7198,7 @@
   {
     "id": 6268,
     "uuid": "45ede1cc-439c-42c3-9aa1-698288bf6b22",
-    "hitokoto": "���边枯萎之叶，何人知是蔷薇？长守孤冢之旁，芳华逝矣。",
+    "hitokoto": "冢边枯萎之叶，何人知是蔷薇？长守孤冢之旁，芳华逝矣。",
     "type": "e",
     "from": "一言",
     "from_who": "骨戮八千咲",
@@ -20858,5 +20858,19 @@
     "commit_from": "web",
     "created_at": "1794119781",
     "length": 15
+  },
+  {
+    "id": 13636,
+    "uuid": "263ed30f-5690-4291-89f5-3f88c3eb043c",
+    "hitokoto": "纵览人生三万日，诗酒年华！",
+    "type": "e",
+    "from": "浪淘沙",
+    "from_who": "碧水凌涛",
+    "creator": "碧水凌涛",
+    "creator_uid": 20913,
+    "reviewer": 20537,
+    "commit_from": "web",
+    "created_at": "1794439205",
+    "length": 13
   }
 ]
