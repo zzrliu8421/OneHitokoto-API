@@ -126,12 +126,18 @@
       display:flex;align-items:center;gap:12px;text-decoration:none;
     }
     .plaque-seal{
-      width:38px;height:38px;border:1.5px solid var(--accent);border-radius:8px;
-      color:var(--accent);display:grid;place-items:center;
-      font-family:'Noto Serif SC',serif;font-weight:900;font-size:18px;
-      transform:rotate(-4deg);transition:transform var(--ease),background var(--ease),color var(--ease);
+      width:38px;height:38px;position:relative;border-radius:9px;
+      background:linear-gradient(150deg,var(--accent),var(--accent-deep));
+      color:#FFF7EB;display:grid;place-items:center;
+      font-family:'Noto Serif SC',serif;font-weight:900;font-size:20px;line-height:1;
+      transform:rotate(-4deg);
+      box-shadow:0 6px 18px rgba(216,84,58,.28);
+      transition:transform var(--ease),box-shadow var(--ease);
     }
-    .plaque:hover .plaque-seal{transform:rotate(0) scale(1.05);background:var(--accent);color:var(--paper)}
+    .plaque-seal::before{
+      content:"";position:absolute;inset:3px;border:1px solid rgba(255,247,235,.42);border-radius:6px;
+    }
+    .plaque:hover .plaque-seal{transform:rotate(0) scale(1.05);box-shadow:0 9px 22px rgba(216,84,58,.4)}
     .plaque-name{
       font-family:'Noto Serif SC',serif;font-weight:700;font-size:19px;color:var(--ink);letter-spacing:.14em;
     }
@@ -325,11 +331,16 @@
 
     /* 章节 */
     .chap{margin-bottom:84px;scroll-margin-top:76px}
-    .chap-head{display:flex;align-items:baseline;gap:16px;margin-bottom:26px}
+    .chap-head{display:flex;align-items:center;gap:16px;margin-bottom:26px}
     .chap-no{
-      font-family:'Noto Serif SC',serif;font-weight:900;font-size:15px;
-      color:var(--accent);letter-spacing:.2em;flex:none;
-      border:1px solid var(--accent);border-radius:4px;padding:3px 8px;transform:rotate(-3deg);
+      flex:none;display:grid;place-items:center;
+      width:28px;height:34px;padding-top:8px;
+      border-radius:3px;
+      background:linear-gradient(180deg,var(--accent) 0 8px,var(--paper-2) 8px);
+      color:var(--sign-ink);
+      font-family:'Noto Serif SC',serif;font-weight:900;font-size:14px;line-height:1;
+      transform:rotate(-3deg);
+      box-shadow:0 3px 10px rgba(0,0,0,.28);
     }
     .chap-title{
       font-family:'Noto Serif SC',serif;font-size:29px;font-weight:700;
@@ -493,10 +504,16 @@
       text-align:center;
     }
     .colophon-seal{
-      width:36px;height:36px;margin:0 auto 14px;
-      border:1.5px solid var(--accent);border-radius:8px;
-      color:var(--accent);display:grid;place-items:center;
-      font-family:'Noto Serif SC',serif;font-weight:900;font-size:16px;transform:rotate(-4deg);
+      width:36px;height:36px;margin:0 auto 14px;position:relative;
+      border-radius:9px;
+      background:linear-gradient(150deg,var(--accent),var(--accent-deep));
+      color:#FFF7EB;display:grid;place-items:center;
+      font-family:'Noto Serif SC',serif;font-weight:900;font-size:17px;line-height:1;
+      transform:rotate(-4deg);
+      box-shadow:0 5px 14px rgba(216,84,58,.24);
+    }
+    .colophon-seal::before{
+      content:"";position:absolute;inset:3px;border:1px solid rgba(255,247,235,.42);border-radius:6px;
     }
     .colophon p{font-size:12px;line-height:2;color:var(--ink-3)}
     .colophon a{color:var(--ink-2);text-decoration:none;border-bottom:1px solid var(--line-strong);padding-bottom:1px;transition:all var(--ease)}
@@ -606,14 +623,17 @@
                   <rect x="-2.9" y="-58" width="5.8" height="58" rx="1" fill="url(#tube-stick)"/>
                   <path d="M-2.9 -50V-57a1 1 0 0 1 1-1h3.8a1 1 0 0 1 1 1v7Z" fill="#D8543A"/>
                 </g>
+                <clipPath id="tube-mouth"><rect x="16" y="0" width="64" height="38.4"/></clipPath>
               </defs>
-              <use href="#tube-stick-shape" transform="translate(38.5 60) rotate(-13)"/>
-              <use href="#tube-stick-shape" transform="translate(44.8 60) rotate(-4.5) scale(1 .96)"/>
-              <use href="#tube-stick-shape" transform="translate(51.2 60) rotate(4.5) scale(1 .92)"/>
-              <use href="#tube-stick-shape" transform="translate(57.5 60) rotate(13) scale(1 .98)"/>
               <path d="M26 34c.2 20 .6 36 1.4 43.5 1.2 8 7.6 12 20.6 12s19.4-4 20.6-12c.8-7.5 1.2-23.5 1.4-43.5Z" fill="url(#tube-wood)"/>
               <ellipse cx="48" cy="34" rx="22" ry="6" fill="#3C1E12"/>
               <ellipse cx="48" cy="34.4" rx="17.6" ry="4.2" fill="#1C0E07"/>
+              <g clip-path="url(#tube-mouth)">
+                <use href="#tube-stick-shape" transform="translate(38.5 60) rotate(-13)"/>
+                <use href="#tube-stick-shape" transform="translate(44.8 60) rotate(-4.5) scale(1 .96)"/>
+                <use href="#tube-stick-shape" transform="translate(51.2 60) rotate(4.5) scale(1 .92)"/>
+                <use href="#tube-stick-shape" transform="translate(57.5 60) rotate(13) scale(1 .98)"/>
+              </g>
               <ellipse cx="48" cy="34" rx="22" ry="6" fill="none" stroke="#C08558" stroke-opacity=".4" stroke-width="1.1"/>
               <path d="M29.6 43c.4 11 1.2 22 3 30" fill="none" stroke="#FFFFFF" stroke-opacity=".16" stroke-width="2.4" stroke-linecap="round"/>
               <path d="M27.6 50.5q20.4 6 40.8 0" fill="none" stroke="#D8543A" stroke-opacity=".85" stroke-width="2.4" stroke-linecap="round"/>
