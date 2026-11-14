@@ -146,28 +146,11 @@
       transform-origin:bottom center;
     }
     .tube-cup{
-      width:74px;height:58px;position:relative;
-      background:linear-gradient(180deg,#8A4A32,#5E3222 55%,#47251A);
-      border-radius:10px 10px 26px 26px / 10px 10px 40px 40px;
-      box-shadow:inset 0 3px 6px rgba(255,255,255,.14), inset 0 -6px 10px rgba(0,0,0,.35), 0 10px 22px rgba(0,0,0,.4);
+      display:block;width:72px;height:auto;
+      transition:transform var(--ease),filter var(--ease);
+      filter:drop-shadow(0 7px 14px rgba(0,0,0,.45));
     }
-    .tube-cup::before{
-      content:"";position:absolute;left:8px;right:8px;top:12px;bottom:14px;
-      border:1px solid rgba(246,241,229,.22);border-radius:8px 8px 20px 20px;
-    }
-    .tube-cup::after{
-      /* 筒中签头 */
-      content:"";position:absolute;top:-12px;left:50%;transform:translateX(-50%);
-      width:40px;height:14px;
-      background:
-        linear-gradient(90deg,
-          var(--accent) 0 8px, transparent 8px 12px,
-          var(--accent) 12px 20px, transparent 20px 24px,
-          var(--accent) 24px 32px, transparent 32px 36px,
-          var(--accent) 36px 40px);
-      border-radius:3px 3px 0 0;
-    }
-    .tube:hover .tube-cup{box-shadow:inset 0 3px 6px rgba(255,255,255,.2), inset 0 -6px 10px rgba(0,0,0,.35), 0 12px 26px rgba(0,0,0,.5)}
+    .tube:hover .tube-cup{transform:translateY(-3px) scale(1.03);filter:drop-shadow(0 11px 18px rgba(0,0,0,.5)) brightness(1.05)}
     .tube.shaking{animation:shake .45s ease}
     @keyframes shake{
       0%,100%{transform:rotate(0)}
@@ -236,27 +219,11 @@
       margin-top:auto;width:100%;
       display:flex;align-items:flex-end;justify-content:space-between;gap:8px;
       border-top:1px solid rgba(110,102,86,.25);padding-top:10px;
-      min-height:52px;
     }
     .sign-src{
       font-family:'Noto Serif SC',serif;font-size:12.5px;color:var(--sign-muted);letter-spacing:.08em;
       text-align:left;flex:1;min-width:0;
       white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
-    }
-    .seal{
-      flex:none;display:grid;place-items:center;
-      min-width:38px;height:38px;padding:0 6px;
-      border:1.5px solid var(--accent);border-radius:7px;
-      color:var(--accent);background:transparent;
-      font-family:'Noto Serif SC',serif;font-weight:900;font-size:13px;letter-spacing:.05em;
-      transform:rotate(-6deg);opacity:0;pointer-events:none;
-    }
-    .seal.stamped{animation:stamp .5s cubic-bezier(.2,1.6,.4,1) forwards}
-    @keyframes stamp{
-      0%{opacity:0;transform:rotate(-16deg) scale(2.2)}
-      55%{opacity:1;transform:rotate(-4deg) scale(.92)}
-      75%{transform:rotate(-7deg) scale(1.05)}
-      100%{opacity:.95;transform:rotate(-6deg) scale(1)}
     }
 
     /* 签台操作 */
@@ -481,16 +448,6 @@
       font-size:9.5px;font-weight:600;letter-spacing:.08em;
       color:var(--accent);border:1px solid var(--accent);padding:1.5px 6px;border-radius:4px;flex:none;
     }
-    .notice{
-      margin-top:20px;
-      border:1px dashed var(--accent);border-radius:6px;
-      padding:12px 15px;font-size:12.5px;line-height:1.75;color:var(--ink-2);
-      display:flex;gap:9px;align-items:flex-start;background:var(--accent-soft);
-    }
-    .notice::before{content:"※";font-family:'Noto Serif SC',serif;color:var(--accent);font-weight:700;flex:none}
-    .notice span{flex:1;min-width:0}
-    .notice a{color:var(--accent);text-decoration:underline;text-underline-offset:3px}
-
     /* 问签 FAQ */
     .faq{max-width:620px}
     .faq-item{
@@ -589,13 +546,12 @@
       .sign-area{gap:8px}
       .sign{width:min(280px,80vw);min-height:352px}
       .sign-text{height:206px;font-size:18px}
-      .tube-cup{width:60px;height:48px}
+      .tube-cup{width:58px}
     }
     @media (prefers-reduced-motion:reduce){
       html{scroll-behavior:auto}
       *,*::before,*::after{transition:none !important;animation:none !important}
       .river{display:none}
-      .seal{opacity:.95}
     }
   </style>
 </head>
@@ -626,7 +582,34 @@
       <div class="sign-area">
         <div class="tube-row">
           <button class="tube" id="tube-btn" type="button" aria-label="摇签筒，随机换一支签">
-            <span class="tube-cup" aria-hidden="true"></span>
+            <svg class="tube-cup" viewBox="16 0 64 92" aria-hidden="true">
+              <defs>
+                <linearGradient id="tube-wood" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0" stop-color="#A05C3C"/>
+                  <stop offset=".45" stop-color="#74412A"/>
+                  <stop offset="1" stop-color="#45221A"/>
+                </linearGradient>
+                <linearGradient id="tube-stick" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0" stop-color="#F8F0DD"/>
+                  <stop offset="1" stop-color="#D9C5A0"/>
+                </linearGradient>
+                <g id="tube-stick-shape">
+                  <rect x="-2.9" y="-58" width="5.8" height="58" rx="1" fill="url(#tube-stick)"/>
+                  <path d="M-2.9 -50V-57a1 1 0 0 1 1-1h3.8a1 1 0 0 1 1 1v7Z" fill="#D8543A"/>
+                </g>
+              </defs>
+              <use href="#tube-stick-shape" transform="translate(38.5 60) rotate(-13)"/>
+              <use href="#tube-stick-shape" transform="translate(44.8 60) rotate(-4.5) scale(1 .96)"/>
+              <use href="#tube-stick-shape" transform="translate(51.2 60) rotate(4.5) scale(1 .92)"/>
+              <use href="#tube-stick-shape" transform="translate(57.5 60) rotate(13) scale(1 .98)"/>
+              <path d="M26 34c.2 20 .6 36 1.4 43.5 1.2 8 7.6 12 20.6 12s19.4-4 20.6-12c.8-7.5 1.2-23.5 1.4-43.5Z" fill="url(#tube-wood)"/>
+              <ellipse cx="48" cy="34" rx="22" ry="6" fill="#3C1E12"/>
+              <ellipse cx="48" cy="34.4" rx="17.6" ry="4.2" fill="#1C0E07"/>
+              <ellipse cx="48" cy="34" rx="22" ry="6" fill="none" stroke="#C08558" stroke-opacity=".4" stroke-width="1.1"/>
+              <path d="M29.6 43c.4 11 1.2 22 3 30" fill="none" stroke="#FFFFFF" stroke-opacity=".16" stroke-width="2.4" stroke-linecap="round"/>
+              <path d="M27.6 50.5q20.4 6 40.8 0" fill="none" stroke="#D8543A" stroke-opacity=".85" stroke-width="2.4" stroke-linecap="round"/>
+              <path d="M37 64c.4 4.6 1.2 8.2 2.4 11M59 64c-.4 4.6-1.2 8.2-2.4 11" fill="none" stroke="#2A160D" stroke-opacity=".45" stroke-width="1.2" stroke-linecap="round"/>
+            </svg>
             <span class="tube-label">摇签</span>
           </button>
         </div>
@@ -636,7 +619,6 @@
           <div class="sign-err" id="sign-err" hidden></div>
           <div class="sign-foot">
             <span class="sign-src" id="sign-src" aria-live="polite"></span>
-            <span class="seal" id="sign-seal" aria-hidden="true">言</span>
           </div>
         </div>
       </div>
@@ -809,8 +791,6 @@
             </div>
           </div>
 
-          <div class="notice"><span>支持 EdgeOne Pages 与阿里云 ESA 多平台部署。数据来自 <a href="https://github.com/hitokoto-osc/sentences-bundle" target="_blank" rel="noopener">hitokoto-osc/sentences-bundle</a>，每日自动同步。</span></div>
-
           <div class="paper-grid">
             <div class="paper-card paper-pane">
               <h3>请求参数</h3>
@@ -947,7 +927,7 @@
 
     /* ============ 签台：竖排打字机 + 摇签仪式 ============ */
     var hall={
-      sign:null, signText:null, signSrc:null, signNo:null, signSeal:null,
+      sign:null, signText:null, signSrc:null, signNo:null,
       signErr:null, stageStatus:null, drawBtn:null, copyBtn:null, tube:null,
       current:null, next:null,
       display:"", state:"idle", timer:null, busy:false,
@@ -958,7 +938,6 @@
         this.signText=document.getElementById('sign-text');
         this.signSrc=document.getElementById('sign-src');
         this.signNo=document.getElementById('sign-no');
-        this.signSeal=document.getElementById('sign-seal');
         this.signErr=document.getElementById('sign-err');
         this.stageStatus=document.getElementById('stage-status');
         this.drawBtn=document.getElementById('draw-btn');
@@ -999,7 +978,6 @@
         this.signErr.hidden=false;
         this.signErr.innerHTML='<strong>'+msg+'</strong><br><small style="font-family:\'IBM Plex Mono\',monospace;font-size:10px;color:var(--sign-muted)">'+detail+'</small>';
         this.signSrc.textContent='';
-        this.signSeal.classList.remove('stamped');
         this.stageStatus.innerHTML='';
       },
       clearErr:function(){
@@ -1010,13 +988,6 @@
         this.busy=b;
         if(this.drawBtn) this.drawBtn.disabled=b;
         if(this.tube) this.tube.disabled=b;
-      },
-      sealText:function(d){
-        var raw=(d.from_who||d.from||'').replace(/\s+/g,'');
-        if(!raw) return '言';
-        var m=raw.match(/[\u4e00-\u9fa5]{1,2}/);
-        if(m) return m[0].length>=2?m[0]:((m[0]+(raw.replace(m[0],'').match(/[\u4e00-\u9fa5]/)||[''])[0]).slice(0,2));
-        return raw.slice(0,2).toUpperCase();
       },
       /* 换签仪式：签缩回 → 筒摇 → 签弹出 → 落字 */
       redraw:function(cat, stickEl){
@@ -1063,21 +1034,15 @@
             self.signText.appendChild(document.createTextNode(self.display));
             var caret=document.createElement('span'); caret.className='caret'; self.signText.appendChild(caret);
             self.signSrc.textContent='';
-            self.signSeal.classList.remove('stamped');
             self.signNo.textContent='HITOKOTO';
             self.stageStatus.textContent='落墨中 ……';
             self.timer=setTimeout(function(){ self.run(); }, self.tMin + Math.random()*self.tVar);
           } else {
-            /* 落款 + 盖章 */
+            /* 落款 */
             self.signText.textContent=full;
             var a=self.current.from||"", b=self.current.from_who||"";
             var p=[]; if(a) p.push(a); if(b) p.push(b);
             self.signSrc.textContent=p.length?('—— '+p.join(' · ')):'佚名';
-            var seal=self.sealText(self.current);
-            self.signSeal.textContent=seal;
-            self.signSeal.classList.remove('stamped');
-            void self.signSeal.offsetWidth;
-            self.signSeal.classList.add('stamped');
             var catName=self.current.category_name || self.CAT_NAMES[self.current.type] || self.current.type || '—';
             var no=self.current.id?('No.'+self.current.id):'HITOKOTO';
             self.signNo.textContent=no;
