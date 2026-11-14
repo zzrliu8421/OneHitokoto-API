@@ -123,21 +123,18 @@
       border-right:1px solid var(--line);
     }
     .plaque{
-      display:flex;align-items:center;gap:12px;text-decoration:none;
+      display:flex;align-items:center;gap:13px;text-decoration:none;
     }
-    .plaque-seal{
-      width:38px;height:38px;position:relative;border-radius:9px;
-      background:linear-gradient(150deg,var(--accent),var(--accent-deep));
-      color:#FFF7EB;display:grid;place-items:center;
-      font-family:'Noto Serif SC',serif;font-weight:900;font-size:20px;line-height:1;
-      transform:rotate(-4deg);
-      box-shadow:0 6px 18px rgba(216,84,58,.28);
-      transition:transform var(--ease),box-shadow var(--ease);
+    .plaque-mark{
+      flex:none;display:block;width:30px;
+      transition:transform var(--ease);
     }
-    .plaque-seal::before{
-      content:"";position:absolute;inset:3px;border:1px solid rgba(255,247,235,.42);border-radius:6px;
-    }
-    .plaque:hover .plaque-seal{transform:rotate(0) scale(1.05);box-shadow:0 9px 22px rgba(216,84,58,.4)}
+    .plaque-mark svg{display:block;width:100%;height:auto}
+    .plaque:hover .plaque-mark{transform:rotate(-4deg) scale(1.05)}
+    .fold-body{fill:var(--paper);stroke:rgba(33,28,21,.16);stroke-width:.8}
+    .fold-head{fill:var(--accent)}
+    .fold-flap{fill:var(--paper-2);stroke:rgba(33,28,21,.16);stroke-width:.8}
+    .fold-ink{stroke:var(--sign-ink);stroke-opacity:.22;stroke-width:.9;fill:none}
     .plaque-name{
       font-family:'Noto Serif SC',serif;font-weight:700;font-size:19px;color:var(--ink);letter-spacing:.14em;
     }
@@ -331,16 +328,10 @@
 
     /* 章节 */
     .chap{margin-bottom:84px;scroll-margin-top:76px}
-    .chap-head{display:flex;align-items:center;gap:16px;margin-bottom:26px}
+    .chap-head{display:flex;align-items:center;gap:14px;margin-bottom:26px}
     .chap-no{
-      flex:none;display:grid;place-items:center;
-      width:28px;height:34px;padding-top:8px;
-      border-radius:3px;
-      background:linear-gradient(180deg,var(--accent) 0 8px,var(--paper-2) 8px);
-      color:var(--sign-ink);
-      font-family:'Noto Serif SC',serif;font-weight:900;font-size:14px;line-height:1;
-      transform:rotate(-3deg);
-      box-shadow:0 3px 10px rgba(0,0,0,.28);
+      flex:none;font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:500;
+      letter-spacing:.1em;color:var(--accent);transform:rotate(-1deg);
     }
     .chap-title{
       font-family:'Noto Serif SC',serif;font-size:29px;font-weight:700;
@@ -503,18 +494,11 @@
       margin-top:20px;padding:34px 44px 44px 0;
       text-align:center;
     }
-    .colophon-seal{
-      width:36px;height:36px;margin:0 auto 14px;position:relative;
-      border-radius:9px;
-      background:linear-gradient(150deg,var(--accent),var(--accent-deep));
-      color:#FFF7EB;display:grid;place-items:center;
-      font-family:'Noto Serif SC',serif;font-weight:900;font-size:17px;line-height:1;
-      transform:rotate(-4deg);
-      box-shadow:0 5px 14px rgba(216,84,58,.24);
+    .colophon-mark{
+      width:28px;margin:0 auto 14px;display:block;
+      transform:rotate(-3deg);
     }
-    .colophon-seal::before{
-      content:"";position:absolute;inset:3px;border:1px solid rgba(255,247,235,.42);border-radius:6px;
-    }
+    .colophon-mark svg{display:block;width:100%;height:auto}
     .colophon p{font-size:12px;line-height:2;color:var(--ink-3)}
     .colophon a{color:var(--ink-2);text-decoration:none;border-bottom:1px solid var(--line-strong);padding-bottom:1px;transition:all var(--ease)}
     .colophon a:hover{color:var(--accent);border-bottom-color:var(--accent)}
@@ -598,7 +582,16 @@
     <!-- ============ 左：签台 ============ -->
     <aside class="stage" aria-label="签台">
       <a href="#" class="plaque" aria-label="拾言签馆 首页">
-        <span class="plaque-seal" aria-hidden="true">言</span>
+        <span class="plaque-mark" aria-hidden="true">
+          <svg viewBox="0 0 36 44">
+            <g transform="rotate(-5 18 40)">
+              <path class="fold-body" d="M11 4h11l7 7v29H11z"/>
+              <path class="fold-head" d="M11 4h11l7 7H11z"/>
+              <path class="fold-flap" d="M22 4l7 7h-7z"/>
+              <path class="fold-ink" d="M15 30h5"/>
+            </g>
+          </svg>
+        </span>
         <span>
           <span class="plaque-name">拾言签馆</span>
           <span class="plaque-sub" style="display:block">HITOKOTO API</span>
@@ -705,7 +698,7 @@
         <!-- 缘起 -->
         <section class="chap" id="about">
           <div class="chap-head">
-            <span class="chap-no" aria-hidden="true">壹</span>
+            <span class="chap-no" aria-hidden="true">01</span>
             <h2 class="chap-title">缘起</h2>
           </div>
           <p class="origin-lede">
@@ -726,7 +719,7 @@
         <!-- 六艺 -->
         <section class="chap" id="arts">
           <div class="chap-head">
-            <span class="chap-no" aria-hidden="true">贰</span>
+            <span class="chap-no" aria-hidden="true">02</span>
             <h2 class="chap-title">六艺</h2>
           </div>
           <p class="chap-desc">这座签馆的全部本事，贴在墙上，共六张。</p>
@@ -773,7 +766,7 @@
         <!-- 用法 -->
         <section class="chap" id="docs">
           <div class="chap-head">
-            <span class="chap-no" aria-hidden="true">叁</span>
+            <span class="chap-no" aria-hidden="true">03</span>
             <h2 class="chap-title">用法</h2>
           </div>
           <p class="chap-desc">“不论在哪里，总有那么一两个句子能穿透你的心。” 三步接入，无需配置。</p>
@@ -870,7 +863,7 @@
         <!-- 问签 -->
         <section class="chap" id="faq">
           <div class="chap-head">
-            <span class="chap-no" aria-hidden="true">肆</span>
+            <span class="chap-no" aria-hidden="true">04</span>
             <h2 class="chap-title">问签</h2>
           </div>
           <div class="faq">
@@ -898,7 +891,16 @@
         </section>
 
         <footer class="colophon">
-          <div class="colophon-seal" aria-hidden="true">言</div>
+          <div class="colophon-mark" aria-hidden="true">
+            <svg viewBox="0 0 36 44">
+              <g transform="rotate(-5 18 40)">
+                <path class="fold-body" d="M11 4h12l6 6v30H11z"/>
+                <path class="fold-head" d="M11 4h18v6H11z"/>
+                <path class="fold-flap" d="M23 4l6 6h-6z"/>
+                <path class="fold-ink" d="M15 31h5"/>
+              </g>
+            </svg>
+          </div>
           <p>数据来源 <a href="https://github.com/hitokoto-osc/sentences-bundle" target="_blank" rel="noopener">hitokoto-osc</a> · 参考文档 <a href="https://developer.hitokoto.cn/sentence/" target="_blank" rel="noopener">developer.hitokoto.cn</a></p>
           <p>Powered by <a href="https://edgeone.ai/pages" target="_blank" rel="noopener">EdgeOne Pages</a> / <a href="https://www.aliyun.com/product/esa" target="_blank" rel="noopener">阿里云 ESA</a></p>
           <p>© 2026 <a href="https://sylv.top" target="_blank" rel="noopener">Sylvy</a>. All rights reserved. · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">豫ICP备2026013756号-1</a></p>
