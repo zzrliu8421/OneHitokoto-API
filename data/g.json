@@ -646,7 +646,7 @@
   {
     "id": 672,
     "uuid": "6d85ce43-0869-487f-b174-bfcee556b38d",
-    "hitokoto": "使会场合而为一的歌曲。大家一起飞起来吧!",
+    "hitokoto": "使会场合而���一的歌曲。大家一起飞起来吧!",
     "type": "g",
     "from": "南条爱乃",
     "from_who": null,
@@ -1836,7 +1836,7 @@
   {
     "id": 1178,
     "uuid": "9a77305c-56c7-4b46-b617-e927e3e34f13",
-    "hitokoto": "分别后的难过都是依赖，无法相拥��人要好好道别",
+    "hitokoto": "分别后的难过都是依赖，无法相拥的人要好好道别",
     "type": "g",
     "from": "至此流年各天涯",
     "from_who": "我不李志",
@@ -4314,7 +4314,7 @@
   {
     "id": 4435,
     "uuid": "746f0bba-fd90-4084-858e-eb6b49c36b96",
-    "hitokoto": "旅游的意义在于，看那些你不曾经历过的事情，见那些你可能永远不会再见的人。",
+    "hitokoto": "旅游的意义在于，看那些你不曾经历过的事情，见那些你可能永远不会再见的人���",
     "type": "g",
     "from": "柯宝宝",
     "from_who": null,
@@ -26738,5 +26738,47 @@
     "commit_from": "web",
     "created_at": "1793658429",
     "length": 13
+  },
+  {
+    "id": 13643,
+    "uuid": "7443d0f4-9774-4eb8-8cbe-f8077e577f7e",
+    "hitokoto": "请别遗忘，我用泪与火尽力歌唱；请别遥望，林野与花海覆上风霜。",
+    "type": "g",
+    "from": "碎镜",
+    "from_who": "被遗忘者的哀伤/北山薇",
+    "creator": "D!s!llus!on",
+    "creator_uid": 20901,
+    "reviewer": 20537,
+    "commit_from": "web",
+    "created_at": "1794826692",
+    "length": 30
+  },
+  {
+    "id": 13644,
+    "uuid": "feb163ac-326a-45bf-b2a7-8d8e1f33cb0e",
+    "hitokoto": "日复一日地测试各种新型传送门，在城市之间来回穿梭。",
+    "type": "g",
+    "from": "研发基地（CSP-S 2026）",
+    "from_who": null,
+    "creator": "magicso",
+    "creator_uid": 21024,
+    "reviewer": 20537,
+    "commit_from": "web",
+    "created_at": "1794830837",
+    "length": 25
+  },
+  {
+    "id": 13645,
+    "uuid": "3d404a8d-b04b-440f-91a3-89a6629d1ca4",
+    "hitokoto": "秋季，一群海鸟会沿着这条直线在南北方向上迁徙。",
+    "type": "g",
+    "from": "迁徙（CSP-S 2026）",
+    "from_who": "jzc",
+    "creator": "magicso",
+    "creator_uid": 21024,
+    "reviewer": 20537,
+    "commit_from": "web",
+    "created_at": "1794831027",
+    "length": 23
   }
 ]
